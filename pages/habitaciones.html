@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fuego & Sol Hotel</title>
+  <link rel="icon" href="../imagenes/clear-sun_icon-icons.com_54320.ico">
+  <!-- Css Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <!-- Css Fontawesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <!-- Mi css -->
+  <link rel="stylesheet" href="../css/styles.css">
+</head>
+
+<body>
+  <!-- Header inicio -->
+  <header class="container-fluid" id="header2">
+    <div class="container d-flex align-items-center justify-content-between">
+      <a href="../pages/hotel.html" class="logo" id="logoh">Fuego & Sol Hotel</a>
+      <button class="btn btn-dark btn-outline-ligth btn-l btn-lg hamburger_menu" id="hamburgermenu2" type="button"
+        data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions"
+        aria-controls="offcanvasWithBothOptions">Menu <i class="fa-solid fa-bars fa-lg"
+          style="color: #ffffff;"></i></button>
+    </div>
+  </header>
+  <!-- Offcavas inicio -->
+  <div class="container-fluid d-flex flex-row-reverse">
+    <div class="offcanvas offcanvas-end" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions"
+      aria-labelledby="offcanvasWithBothOptionsLabel">
+      <div class="offcanvas-header justify-content-end">
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <img src="../imagenes/f&s hotel.png" alt="Logodelhotel" class="img-fluid">
+        <ul class="menu">
+          <li><a href="../index.html" id="a1">Inicio</a></li>
+          <li><a href="../pages/hotel.html" id="a2">Hotel</a></li>
+          <li><a href="../pages/habitaciones.html" id="a3">Habitaciones</a></li>
+          <li><a href="../pages/fotos.html" id="a1">Fotos</a></li>
+          <li><a href="../pages/descubre.html" id="a3">Descubre</a></li>
+          <li><a href="../pages/contacto.html" id="a2">Contacto</a></li>
+          <li><a href="../pages/aventuras.html" id="a3">Aventuras</a></li>
+        </ul>
+        <div>
+          <i class="fa-sharp fa-solid fa-location-dot fa-lg" style="color: #000000;"></i>
+          <p>De la Ermita 3462, Barrio Bahía Cauquén, 9410 Ushuaia, Tierra del Fuego (Argentina)</p>
+        </div>
+        <div>
+          <i class="fa-sharp fa-solid fa-phone fa-lg" style="color: #000000;"></i>
+          <p>Hotel: (54 2901) 416 324</p>
+          <p>Reservas: (54 911) 6213 5028</p>
+        </div>
+        <div>
+          <i class="fa-sharp fa-regular fa-envelope fa-lg" style="color: #000000;"></i>
+          <p>Email: reservas@fuegoysolhotel.com</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Offcavas fin -->
+
+  <!-- Header fin -->
+	<a href="https://api.whatsapp.com/send?phone=+59893608857&text=Hola, quiero comunicarme con el hotel" class="btn-wsp" target="_blank">
+    <i class="fa-brands fa-whatsapp"></i>
+</a>
+  <!-- Main inicio -->
+  <div class="home_wrapper container-fluid position-relative">
+    <video class="video_ab" autoplay muted loop>
+      <source src="../videos/video del hotel.mp4" type="video/mp4">
+    </video>
+    <div class="container d-flex justify-content-center">
+      <div class="row">
+        <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+          <h2>Bienvenido</h2>
+          <a class="btn" href="#sech1" role="button">Habitaciones & Suites</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Main fin -->
+
+  <!-- Seccion 1 inicio -->
+  <section class="container-fluid" id="sech1">
+    <div class="container d-flex">
+      <div class="row">
+        <div class="card text-center" id="carta1">
+          <div class="card-body">
+            <h5 class="card-title">Patagonia Suite</h5>
+            <p class="card-text">Un nuevo concepto en Ushuaia, una suite en línea con el único Resort & Spa de alta gama
+              que se fusiona con las aguas del Fin del Mundo.</p>
+            <img src="../imagenes/hotel/habitacion 1/patagonia_suite__3_.jpg" class="card-img-bottom img-fluid" alt="...">
+            <a class="btn" href="../pages/habitacion1.html" role="button" id="reserv">Leer Más</a>
+          </div>
+        </div>
+        <div class="card text-center" id="carta2">
+          <div class="card-body">
+            <h5 class="card-title">Senior Suite Canal Beagle</h5>
+            <p class="card-text">Un amplio living independiente le da la bienvenida a quienes buscan disfrutar el
+              espectacular paisaje del Canal Beagle en primera fila y con total privacidad.</p>
+            <img src="../imagenes/hotel/habitacion 2/habitacion-senior-suite-canal-beagle-01.jpg"
+              class="card-img-bottom img-fluid" alt="...">
+            <a class="btn" href="../pages/habitacion2.html" role="button" id="reserv">Leer Más</a>
+          </div>
+        </div>
+        <div class="card text-center" id="carta3">
+          <div class="card-body">
+            <h5 class="card-title">Junior Suite Canal Beagle </h5>
+            <p class="card-text">Disfrute de privilegiadas vistas desde su balcón privado y relájese con un completo
+              equipamiento que incluye bañadera con hidromasaje.</p>
+            <img src="../imagenes/hotel/habitacion 3/habitacion-junior-suite-canal-beagle-01.jpg"
+              class="card-img-bottom img-fluid" alt="...">
+            <a class="btn" href="../pages/habitacion3.html" role="button" id="reserv">Leer Más</a>
+          </div>
+        </div>
+      </div>
+  </section>
+  <!-- Seccion 1 fin -->
+  <svg xmlns="http://www.w3.org/2000/svg" id="lineasep" viewBox="0 0 1440 320">
+    <path fill="#5000ca" fill-opacity="1"
+      d="M0,32L48,53.3C96,75,192,117,288,133.3C384,149,480,139,576,117.3C672,96,768,64,864,42.7C960,21,1056,11,1152,26.7C1248,43,1344,85,1392,106.7L1440,128L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
+    </path>
+  </svg>
+  <!-- Seccion 2 inicio -->
+  <section class="container-fluid" id="sech2">
+    <div class="container d-flex">
+      <div class="row">
+        <div class="card text-center" id="carta1">
+          <div class="card-body">
+            <h5 class="card-title">Premium Canal Beagle</h5>
+            <p class="card-text">Cómodos espacios con impactantes vistas al Canal.</p>
+            <img src="../imagenes/hotel/habitacion 4/habitacion-premium-canal-beagle-01.jpg"
+              class="card-img-bottom img-fluid" alt="...">
+            <a class="btn" href="../pages/habitacion4.html" role="button" id="reserv">Leer Más</a>
+          </div>
+        </div>
+        <div class="card text-center" id="carta2">
+          <div class="card-body">
+            <h5 class="card-title">Standard Cuádruple</h5>
+            <p class="card-text">Confortables espacios para 4 personas con vistas a la montaña, totalmente equipadas y
+              ambientadas para garantizar una estadía inolvidable en familia.</p>
+            <img src="../imagenes/hotel/habitacion 5/habitacion-standard-cuadruple-02.jpg"
+              class="card-img-bottom img-fluid" alt="...">
+            <a class="btn" href="../pages/habitacion5.html" role="button" id="reserv">Leer Más</a>
+          </div>
+        </div>
+        <div class="card text-center" id="carta3">
+          <div class="card-body">
+            <h5 class="card-title">Standard</h5>
+            <p class="card-text">Nuestras habitaciones Standard poseen vista al barrio privado donde se encuentra el
+              hotel y parcialmente a las montañas.</p>
+            <img src="../imagenes/hotel/habitacion 6/habitacion-standard-01.jpg" class="card-img-bottom img-fluid"
+              alt="...">
+            <a class="btn" href="../pages/habitacion6.html" role="button" id="reserv">Leer Más</a>
+          </div>
+        </div>
+        <div class="card text-center" id="carta4">
+          <div class="card-body">
+            <h5 class="card-title">Premium Canal Beagle Handicap</h5>
+            <p class="card-text">Esta cómoda habitación con vista al Canal Beagle preparada para personas con
+              discapacidad y/o movilidad reducida está ubicada en la planta baja del hotel.</p>
+            <img src="../imagenes/hotel/habitacion 7/handicap.jpeg" class="card-img-bottom img-fluid" alt="...">
+            <a class="btn" href="../pages/habitacion7.html" role="button" id="reserv">Leer Más</a>
+          </div>
+        </div>
+      </div>
+  </section>
+  <!-- Seccion 2 fin -->
+  <svg xmlns="http://www.w3.org/2000/svg" id="lineasep" viewBox="0 0 1440 320">
+    <path fill="#5000ca" fill-opacity="1"
+      d="M0,32L48,53.3C96,75,192,117,288,133.3C384,149,480,139,576,117.3C672,96,768,64,864,42.7C960,21,1056,11,1152,26.7C1248,43,1344,85,1392,106.7L1440,128L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
+    </path>
+  </svg>
+  <!-- Seccion 3 inicio -->
+  <footer class="p-2 text-white bg-opacity-1 py-5">
+    <div class="container d-flex mx-auto" id="footerhab">
+      <div class="row align-items-center">
+        <div class="col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+          <h5 class="mb-3">Redes Sociales</h5>
+          <ul class="list-unstyled">
+            <li><a class="btn" href="#sech1" role="button" id="reserv">Volver arriba</a></li>
+            <li><a class="btn" href="https://www.facebook.com/los.cauquenes" role="button">Nuestro Facebook
+                <i class="fa-brands fa-square-facebook fa-bounce fa-lg" style="color: #FF0063;" id="botonred"></i>
+              </a></li>
+            <li><a class="btn" href="https://www.instagram.com/loscauquenes/" role="button">Nuestro Instagram
+                <i class="fa-brands fa-instagram fa-bounce fa-lg" style="color: #FF0063;" id="botonred"></i>
+              </a></li>
+            <li><a class="btn" href="../pages/contacto.html" role="button">Contáctanos
+                <i class="fa-solid fa-address-book fa-bounce fa-lg" style="color: #FF0063;" id="botonred"></i>
+              </a></li>
+          </ul>
+        </div>
+        <div class="col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+          <p class="text-base text-gray-900">Copyright © 2023 Website </p>
+          <p class="text-base text-gray-900">Todos los derechos reservados</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- Seccion 3 fin -->
+
+  <!-- Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+  <!-- Bootstrap -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"
+    integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

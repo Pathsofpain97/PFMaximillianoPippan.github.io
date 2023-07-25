@@ -1,0 +1,723 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,500,700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+
+button:focus,
+input:focus,
+textarea:focus {
+  outline: 0;
+}
+
+/*Header index.html inicio */
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 80px;
+  background: transparent;
+  display: flex;
+  align-items: center;
+  z-index: 90;
+}
+
+.logo {
+  font-size: 40px;
+  font-weight: 700;
+  color: #000000;
+  text-decoration: none;
+  transition: 2s;
+}
+
+#lineasep {
+  background-color: rgb(30, 29, 29);
+}
+
+.logo:hover {
+  color: #000000;
+  transition: 2s;
+}
+
+.hamburger_menu {
+  color: #ffffff;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+/*Header index.html fin */
+/*Offcavas index.html inicio */
+.offcanvas {
+  background-color: rgb(145, 30, 26);
+}
+
+.offcanvas-body {
+  background-color: rgb(255, 255, 255);
+}
+
+.menu li a {
+  color: #000000;
+  text-decoration: none;
+  font-size: 35px;
+}
+
+.menu li a:hover {
+  color: rgb(0, 0, 0);
+  background-color: #14FFEC;
+  border-radius: 20px;
+  transition: 1.5s;
+}
+
+.menu .a2:hover {
+  color: rgb(6, 6, 6);
+  background-color: rgb(255, 180, 41);
+  border-radius: 20px;
+  transition: 1.5s;
+}
+
+.menu .a3:hover {
+  color: rgb(255, 255, 255);
+  background-color: black;
+  border-radius: 20px;
+  transition: 1.5s;
+}
+
+/*Offcavas index.html fin */
+/*Home index.html inicio */
+.home_wrapper {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.video_ab {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  object-fit: cover;
+  height: 100%;
+  z-index: -2;
+}
+
+.home_wrapper h2 {
+  color: #fff;
+  font-size: 60px;
+  margin: 0;
+  font-family: "Bebas Neue", sans-serif;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 2px #fff;
+  display: block;
+  text-align: center;
+}
+
+.home_wrapper p {
+  color: #ffffff;
+  font-size: 30px;
+  margin: 0;
+  width: 45%;
+  line-height: 1.8;
+  margin: auto;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 2px rgba(255, 255, 255, 0.9764705882);
+  display: block;
+}
+
+.row .btn {
+  background: transparent;
+  border: none;
+  color: #fff;
+  padding: 10px 30px;
+  font-size: 15px;
+  text-transform: uppercase;
+  border-radius: 25px;
+  display: inline-block;
+  margin-top: 25px;
+  border: 2px solid #fff;
+  transition: 2s ease-in;
+}
+
+.row .btn:hover {
+  background: #ffffff;
+  color: #000000;
+  transition: 1s ease-in;
+}
+
+/*Home index.html fin */
+/*Footer index.html inicio */
+footer {
+  background-color: #1e1c1c;
+}
+
+footer h5 {
+  font-size: 38px;
+  color: #14FFEC;
+}
+
+footer p {
+  font-size: 20px;
+  color: #14FFEC;
+}
+
+/*Footer index.html fin */
+/* Media queries index.html */
+/* `sm` se aplica a dispositivos x-small (teléfonos verticales, menos de 576px)*/
+@media screen and (max-width: 575.98px) {
+  .logo {
+    font-size: 20px;
+    font-weight: 700;
+    color: #ffffff;
+    text-decoration: none;
+    transition: 2s;
+  }
+  .home_wrapper h2 {
+    color: #fff;
+    font-size: 30px;
+    margin: 0;
+    font-family: "Bebas Neue", sans-serif;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 2px #fff;
+    display: block;
+    text-align: center;
+  }
+  .home_wrapper p {
+    color: #ffffff;
+    font-size: 18px;
+    margin: 0;
+    width: 45%;
+    line-height: 1.8;
+    margin: auto;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 2px rgba(255, 255, 255, 0.9764705882);
+    display: block;
+  }
+  footer {
+    background-color: #1e1c1c;
+  }
+  footer h5 {
+    font-size: 28px;
+    color: #14FFEC;
+  }
+  footer p {
+    font-size: 18px;
+    color: #14FFEC;
+  }
+}
+/* Dispositivos pequeños (teléfonos horizontales, 576px y más)*/
+@media (min-width: 576px) {
+  .logo {
+    font-size: 25px;
+    font-weight: 700;
+    color: #ffffff;
+    text-decoration: none;
+    transition: 2s;
+  }
+  .home_wrapper h2 {
+    color: #fff;
+    font-size: 50px;
+    margin: 0;
+    font-family: "Bebas Neue", sans-serif;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 2px #fff;
+    display: block;
+    text-align: center;
+  }
+  .home_wrapper p {
+    color: #ffffff;
+    font-size: 20px;
+    margin: 0;
+    width: 45%;
+    line-height: 1.8;
+    margin: auto;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 2px rgba(255, 255, 255, 0.9764705882);
+    display: block;
+  }
+}
+/* Dispositivos XX-Large (escritorios más grandes, 1400px y más)*/
+@media (min-width: 1400px) {
+  .logo {
+    font-size: 45px;
+    font-weight: 700;
+    color: #ffffff;
+    text-decoration: none;
+    transition: 2s;
+  }
+  .home_wrapper h2 {
+    color: #fff;
+    font-size: 70px;
+    margin: 0;
+    font-family: "Bebas Neue", sans-serif;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 2px #fff;
+    display: block;
+    text-align: center;
+  }
+  .home_wrapper p {
+    color: #ffffff;
+    font-size: 30px;
+    margin: 0;
+    width: 45%;
+    line-height: 1.8;
+    margin: auto;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 2px rgba(255, 255, 255, 0.9764705882);
+    display: block;
+  }
+}
+/*Header Hotel.html inicio */
+#header2 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 80px;
+  background: transparent;
+  display: flex;
+  align-items: center;
+  z-index: 90;
+}
+
+#logoh {
+  font-size: 40px;
+  font-weight: 700;
+  color: rgba(252, 252, 252, 0.8549019608);
+  text-decoration: none;
+  transition: 2s;
+}
+
+#logoh:hover {
+  color: #ff0000;
+  transition: 2s;
+}
+
+#hamburgermenu2 {
+  color: #ffffff;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+#a1 {
+  color: #000000;
+  text-decoration: none;
+  font-size: 35px;
+}
+
+#a1:hover {
+  color: rgb(255, 255, 255);
+  background-color: #530ff2;
+  border-radius: 20px;
+  transition: 1.5s;
+}
+
+#a2 {
+  color: #000000;
+  text-decoration: none;
+  font-size: 35px;
+}
+
+#a2:hover {
+  color: rgb(255, 255, 255);
+  background-color: #065bf9;
+  border-radius: 20px;
+  transition: 1.5s;
+}
+
+#a3 {
+  color: #000000;
+  text-decoration: none;
+  font-size: 35px;
+}
+
+#a3:hover {
+  color: rgb(255, 255, 255);
+  background-color: rgb(255, 149, 0);
+  border-radius: 20px;
+  transition: 1.5s;
+}
+
+/*Header Hotel.html fin */
+/*Seccion 0 Hotel.html inicio */
+#sec0 {
+  background: rgb(30, 29, 29);
+}
+
+#sec0-2 {
+  background-color: rgb(30, 29, 29);
+}
+
+#carta0 {
+  background-color: rgb(50, 45, 45);
+}
+
+#carta0 h5 {
+  color: #9c2222;
+  font-size: 38px;
+}
+
+#carta0 p {
+  color: #ffffff;
+  font-size: 24px;
+}
+
+/*Seccion 0 Hotel.html fin */
+/*Seccion 1 Hotel.html inicio */
+#sec1 {
+  background: rgb(30, 30, 29);
+}
+
+#sec1 h1 {
+  color: #ffffff;
+  text-decoration: underline;
+  font-size: 45px;
+}
+
+#carta1 {
+  background-color: rgb(30, 30, 29);
+}
+
+#carta1 h5 {
+  color: #ffffff;
+  font-size: 26px;
+}
+
+#carta1 p {
+  color: #fff;
+  font-size: 18px;
+}
+
+#carta2 {
+  background-color: rgb(30, 30, 29);
+}
+
+#carta2 h5 {
+  color: #ffffff;
+  font-size: 26px;
+}
+
+#carta2 p {
+  color: #fff;
+  font-size: 18px;
+}
+
+#carta3 {
+  background-color: rgb(30, 30, 29);
+}
+
+#carta3 h5 {
+  color: #ffffff;
+  font-size: 26px;
+}
+
+#carta3 p {
+  color: #fff;
+  font-size: 18px;
+}
+
+#hote1 {
+  clip-path: circle();
+}
+
+/*Seccion 1 Hotel.html fin */
+/*Seccion 2 Hotel.html inicio */
+#sec2 {
+  background: rgb(30, 30, 29);
+}
+
+/*Seccion 2 Hotel.html fin */
+/*Seccion 3 Hotel.html inicio */
+#footerh {
+  background-color: #1e1c1c;
+}
+
+#footerh h5 {
+  font-size: 38px;
+  color: #ffca08;
+}
+
+#footerh p {
+  font-size: 20px;
+  color: #ba2424;
+}
+
+/*Seccion 3 Hotel.html fin */
+/* Media queries Hotel.html.html */
+/* `sm` se aplica a dispositivos x-small (teléfonos verticales, menos de 576px)*/
+@media screen and (max-width: 575.98px) {
+  #logoh {
+    font-size: 23px;
+    font-weight: 700;
+    color: #ffffff;
+    text-decoration: none;
+    transition: 2s;
+  }
+}
+/*Seccion 1 Habitaciones.html inicio */
+#sech1 {
+  background: rgb(30, 30, 29);
+}
+
+#sech1 h1 {
+  color: #ffffff;
+  text-decoration: underline;
+  font-size: 45px;
+}
+
+#carta1 {
+  background-color: rgb(30, 30, 29);
+}
+
+#carta1 h5 {
+  color: #ffffff;
+  font-size: 26px;
+}
+
+#carta1 p {
+  color: #fff;
+  font-size: 18px;
+}
+
+#carta2 {
+  background-color: rgb(30, 30, 29);
+}
+
+#carta2 h5 {
+  color: #ffffff;
+  font-size: 26px;
+}
+
+#carta2 p {
+  color: #fff;
+  font-size: 18px;
+}
+
+#carta3 {
+  background-color: rgb(30, 30, 29);
+}
+
+#carta3 h5 {
+  color: #ffffff;
+  font-size: 26px;
+}
+
+#carta3 p {
+  color: #fff;
+  font-size: 18px;
+}
+
+#carta4 {
+  background-color: rgb(30, 30, 29);
+}
+
+#carta4 h5 {
+  color: #ffffff;
+  font-size: 26px;
+}
+
+#carta4 p {
+  color: #fff;
+  font-size: 18px;
+}
+
+/*Seccion 1 Habitaciones.html fin */
+/*Seccion 2 Habitaciones.html inicio */
+#sech2 {
+  background: rgb(30, 30, 29);
+}
+
+/*Seccion 2 Habitaciones.html fin */
+/* Habitaciones.html y habitaciones(1,2,3,4,5,6,7 html) inicio */
+#sechab1 {
+  background: rgb(30, 30, 29);
+}
+
+#sechab3 {
+  background: rgb(30, 30, 29);
+}
+
+#sechab1 h1 {
+  color: #ffa5a5;
+  font-size: 24px;
+}
+
+#cartahab1 {
+  background-color: rgb(30, 30, 29);
+}
+
+#cartahab1 h5 {
+  color: #ffa5a5;
+  font-size: 24px;
+}
+
+#cartahab1 p {
+  color: #fff;
+  font-size: 20px;
+}
+
+#habitacion1carta {
+  background: rgb(30, 30, 29);
+}
+
+#reserv {
+  background: transparent;
+  border: none;
+  color: #fff;
+  padding: 10px 30px;
+  font-size: 15px;
+  text-transform: uppercase;
+  border-radius: 25px;
+  display: inline-block;
+  margin-top: 25px;
+  border: 2px solid #e93636;
+  transition: 2s ease-in;
+}
+
+#reserv:hover {
+  background: #fcfcfc;
+  color: #000000;
+  transition: 1s ease-in;
+}
+
+#habitacion1carta h5 {
+  color: #ffffff;
+  font-size: 20px;
+}
+
+#habitacion1carta p {
+  color: #fff;
+  font-size: 18px;
+}
+
+#cartahab6 {
+  background-color: rgb(30, 30, 29);
+}
+
+#cartahab6 h5 {
+  color: #ffa5a5;
+  font-size: 24px;
+}
+
+#cartahab6 p {
+  color: #fff;
+  font-size: 20px;
+}
+
+#footerhab {
+  background-color: #1e1c1c;
+}
+
+#footerhab h5 {
+  font-size: 38px;
+  color: #ff7700;
+}
+
+#footerhab p {
+  font-size: 20px;
+  color: #ffffff;
+}
+
+/* Habitaciones.html y habitaciones(1,2,3,4,5,6,7 html) fin */
+/* Fotos.html inicio */
+#sec11foto {
+  background: rgb(30, 30, 29);
+}
+
+#sec1foto {
+  background-color: #3c2b34;
+  background-image: linear-gradient(225deg, #382730 0%, #432f53 50%, #28333d 100%);
+}
+
+#sec1foto img {
+  cursor: pointer;
+}
+
+#sec1foto h1 {
+  color: #ffffff;
+  font-size: 45px;
+}
+
+#gallery-modal .modal-img {
+  width: 100%;
+}
+
+/* Fotos.html fin */
+/* Descubre.html fin */
+#sec1des {
+  background: rgb(30, 30, 29);
+}
+
+#sec1des p {
+  font-size: 20px;
+  color: #ffffff;
+}
+
+/* Descubre.html fin */
+/* Contacto.html inicio */
+#contcontainer .card {
+  border-radius: 20px !important;
+  padding: 32px;
+}
+
+#contcontainer .card-img-top {
+  border-radius: 20px !important;
+}
+
+.bg-section {
+  background-color: rgb(30, 30, 29) !important;
+}
+
+#contcontainer h4 {
+  font-size: 2.25rem !important;
+}
+
+#contcontainer p {
+  font-size: 1.5rem !important;
+}
+
+#contcontainer .btn-primary {
+  background-color: #ef4366 !important;
+  border-color: #ef4366 !important;
+  width: 100%;
+  border-radius: 10px !important;
+}
+
+#contcontainer .form-control {
+  height: 55px !important;
+  border-radius: 7px !important;
+  color: #111111;
+  background-color: #e5e5e5 !important;
+}
+
+/* Contacto.html fin */
+/* Aventuras.html inicio */
+.btn-wsp {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  line-height: 63px;
+  bottom: 25px;
+  right: 25px;
+  background: #25d366;
+  color: #FFF;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 35px;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);
+  z-index: 100;
+  transition: all 300ms ease;
+}
+
+.btn-wsp:hover {
+  background: #20ba5a;
+}
+
+/* Aventuras.html fin */
+
+/*# sourceMappingURL=style.css.map */

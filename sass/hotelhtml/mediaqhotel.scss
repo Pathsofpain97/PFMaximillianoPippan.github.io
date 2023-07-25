@@ -1,0 +1,14 @@
+/* Media queries Hotel.html.html */
+/* `sm` se aplica a dispositivos x-small (teléfonos verticales, menos de 576px)*/
+@media screen and (max-width: 575.98px) {
+
+	#logoh {
+
+		font-size: 23px;
+		font-weight: 700;
+		color: #ffffff;
+		text-decoration: none;
+		transition: 2s;
+
+	}
+}

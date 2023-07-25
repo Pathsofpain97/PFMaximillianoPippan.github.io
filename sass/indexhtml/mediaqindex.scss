@@ -1,0 +1,128 @@
+/* Media queries index.html */
+
+/* `sm` se aplica a dispositivos x-small (teléfonos verticales, menos de 576px)*/
+@media screen and (max-width: 575.98px) {
+
+	.logo {
+
+		font-size: 20px;
+		font-weight: 700;
+		color: #ffffff;
+		text-decoration: none;
+		transition: 2s;
+
+	}
+
+	.home_wrapper h2 {
+		color: #fff;
+		font-size: 30px;
+		margin: 0;
+		font-family: 'Bebas Neue', sans-serif;
+		-webkit-text-fill-color: transparent;
+		-webkit-text-stroke: 2px #fff;
+		display: block;
+		text-align: center;
+	}
+
+	.home_wrapper p {
+		color: #ffffff;
+		font-size: 18px;
+		margin: 0;
+		width: 45%;
+		line-height: 1.8;
+		margin: auto;
+		-webkit-text-fill-color: transparent;
+		-webkit-text-stroke: 2px #fffffff9;
+		display: block;
+	}
+
+	footer {
+		background-color: #1e1c1c;
+	}
+
+
+	footer h5 {
+		font-size: 28px;
+		color: #14FFEC;
+	}
+
+	footer p {
+		font-size: 18px;
+		color: #14FFEC;
+	}
+
+}
+
+/* Dispositivos pequeños (teléfonos horizontales, 576px y más)*/
+@media (min-width: 576px) {
+	.logo {
+
+		font-size: 25px;
+		font-weight: 700;
+		color: #ffffff;
+		text-decoration: none;
+		transition: 2s;
+
+	}
+
+	.home_wrapper h2 {
+		color: #fff;
+		font-size: 50px;
+		margin: 0;
+		font-family: 'Bebas Neue', sans-serif;
+		-webkit-text-fill-color: transparent;
+		-webkit-text-stroke: 2px #fff;
+		display: block;
+		text-align: center;
+	}
+
+	.home_wrapper p {
+		color: #ffffff;
+		font-size: 20px;
+		margin: 0;
+		width: 45%;
+		line-height: 1.8;
+		margin: auto;
+		-webkit-text-fill-color: transparent;
+		-webkit-text-stroke: 2px #fffffff9;
+		display: block;
+	}
+
+}
+
+/* Dispositivos XX-Large (escritorios más grandes, 1400px y más)*/
+@media (min-width: 1400px) {
+
+	.logo {
+		font-size: 45px;
+		font-weight: 700;
+		color: #ffffff;
+		text-decoration: none;
+		transition: 2s;
+
+	}
+
+	.home_wrapper h2 {
+		color: #fff;
+		font-size: 70px;
+		margin: 0;
+		font-family: 'Bebas Neue', sans-serif;
+		-webkit-text-fill-color: transparent;
+		-webkit-text-stroke: 2px #fff;
+		display: block;
+		text-align: center;
+	}
+
+	.home_wrapper p {
+		color: #ffffff;
+		font-size: 30px;
+		margin: 0;
+		width: 45%;
+		line-height: 1.8;
+		margin: auto;
+		-webkit-text-fill-color: transparent;
+		-webkit-text-stroke: 2px #fffffff9;
+		display: block;
+	}
+
+}

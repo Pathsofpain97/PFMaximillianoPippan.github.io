@@ -167,7 +167,7 @@ footer p {
 }
 
 /*Footer index.html fin */
-/* Media queries index.html */
+/* Media queries Index.html */
 /* `sm` se aplica a dispositivos x-small (teléfonos verticales, menos de 576px)*/
 @media screen and (max-width: 575.98px) {
   .logo {
@@ -273,6 +273,10 @@ footer p {
   }
 }
 /*Header Hotel.html inicio */
+#bodyhotel {
+  background: rgb(30, 30, 29);
+}
+
 #header2 {
   position: fixed;
   top: 0;
@@ -381,6 +385,7 @@ footer p {
 
 #carta1 {
   background-color: rgb(30, 30, 29);
+  margin-top: 30px;
 }
 
 #carta1 h5 {
@@ -395,6 +400,7 @@ footer p {
 
 #carta2 {
   background-color: rgb(30, 30, 29);
+  margin-top: 30px;
 }
 
 #carta2 h5 {
@@ -409,6 +415,7 @@ footer p {
 
 #carta3 {
   background-color: rgb(30, 30, 29);
+  margin-top: 30px;
 }
 
 #carta3 h5 {
@@ -448,7 +455,7 @@ footer p {
 }
 
 /*Seccion 3 Hotel.html fin */
-/* Media queries Hotel.html.html */
+/* Media queries Hotel.html */
 /* `sm` se aplica a dispositivos x-small (teléfonos verticales, menos de 576px)*/
 @media screen and (max-width: 575.98px) {
   #logoh {
@@ -458,8 +465,117 @@ footer p {
     text-decoration: none;
     transition: 2s;
   }
+  .home_wrapper h2 {
+    color: #fff;
+    font-size: 30px;
+    margin: 0;
+    font-family: "Bebas Neue", sans-serif;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 2px #fff;
+    display: block;
+    text-align: center;
+  }
+  .home_wrapper p {
+    color: #ffffff;
+    font-size: 18px;
+    margin: 0;
+    width: 45%;
+    line-height: 1.8;
+    margin: auto;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 2px rgba(255, 255, 255, 0.9764705882);
+    display: block;
+  }
+  #footerh {
+    background-color: #1e1c1c;
+  }
+  #footerh h5 {
+    font-size: 28px;
+    color: #ffca08;
+  }
+  #footerh p {
+    font-size: 18px;
+    color: #ba2424;
+  }
+}
+/* Dispositivos pequeños (teléfonos horizontales, 576px y más)*/
+@media (min-width: 576px) {
+  #logoh {
+    font-size: 23px;
+    font-weight: 700;
+    color: #ffffff;
+    text-decoration: none;
+    transition: 2s;
+  }
+  .home_wrapper h2 {
+    color: #fff;
+    font-size: 30px;
+    margin: 0;
+    font-family: "Bebas Neue", sans-serif;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 2px #fff;
+    display: block;
+    text-align: center;
+  }
+  .home_wrapper p {
+    color: #ffffff;
+    font-size: 18px;
+    margin: 0;
+    width: 45%;
+    line-height: 1.8;
+    margin: auto;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 2px rgba(255, 255, 255, 0.9764705882);
+    display: block;
+  }
+  #footerh {
+    background-color: #1e1c1c;
+  }
+  #footerh h5 {
+    font-size: 28px;
+    color: #ffca08;
+  }
+  #footerh p {
+    font-size: 18px;
+    color: #ba2424;
+  }
+}
+/* Dispositivos XX-Large (escritorios más grandes, 1400px y más)*/
+@media (min-width: 1400px) {
+  #logoh {
+    font-size: 45px;
+    font-weight: 700;
+    color: #ffffff;
+    text-decoration: none;
+    transition: 2s;
+  }
+  .home_wrapper h2 {
+    color: #fff;
+    font-size: 70px;
+    margin: 0;
+    font-family: "Bebas Neue", sans-serif;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 2px #fff;
+    display: block;
+    text-align: center;
+  }
+  .home_wrapper p {
+    color: #ffffff;
+    font-size: 30px;
+    margin: 0;
+    width: 45%;
+    line-height: 1.8;
+    margin: auto;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 2px rgba(255, 255, 255, 0.9764705882);
+    display: block;
+  }
 }
 /*Seccion 1 Habitaciones.html inicio */
+#bodyhabits {
+  background: rgb(30, 30, 29);
+}
+
 #sech1 {
   background: rgb(30, 30, 29);
 }
@@ -471,7 +587,7 @@ footer p {
 }
 
 #carta1 {
-  background-color: rgb(30, 30, 29);
+  background-color: rgb(50, 45, 45);
 }
 
 #carta1 h5 {
@@ -485,7 +601,7 @@ footer p {
 }
 
 #carta2 {
-  background-color: rgb(30, 30, 29);
+  background-color: rgb(50, 45, 45);
 }
 
 #carta2 h5 {
@@ -499,7 +615,7 @@ footer p {
 }
 
 #carta3 {
-  background-color: rgb(30, 30, 29);
+  background-color: rgb(50, 45, 45);
 }
 
 #carta3 h5 {
@@ -513,7 +629,7 @@ footer p {
 }
 
 #carta4 {
-  background-color: rgb(30, 30, 29);
+  background-color: rgb(50, 45, 45);
 }
 
 #carta4 h5 {
@@ -624,7 +740,127 @@ footer p {
 }
 
 /* Habitaciones.html y habitaciones(1,2,3,4,5,6,7 html) fin */
+/* Media queries Habitaciones.html */
+/* `sm` se aplica a dispositivos x-small (teléfonos verticales, menos de 576px)*/
+@media screen and (max-width: 575.98px) {
+  #logoh {
+    font-size: 23px;
+    font-weight: 700;
+    color: #ffffff;
+    text-decoration: none;
+    transition: 2s;
+  }
+  .home_wrapper h2 {
+    color: #fff;
+    font-size: 30px;
+    margin: 0;
+    font-family: "Bebas Neue", sans-serif;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 2px #fff;
+    display: block;
+    text-align: center;
+  }
+  .home_wrapper p {
+    color: #ffffff;
+    font-size: 18px;
+    margin: 0;
+    width: 45%;
+    line-height: 1.8;
+    margin: auto;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 2px rgba(255, 255, 255, 0.9764705882);
+    display: block;
+  }
+  #footerhab {
+    background-color: #1e1c1c;
+  }
+  #footerhab h5 {
+    font-size: 28px;
+    color: #ff7700;
+  }
+  #footerhab p {
+    font-size: 18px;
+    color: #ffffff;
+  }
+}
+/* Dispositivos pequeños (teléfonos horizontales, 576px y más)*/
+@media (min-width: 576px) {
+  #logoh {
+    font-size: 23px;
+    font-weight: 700;
+    color: #ffffff;
+    text-decoration: none;
+    transition: 2s;
+  }
+  .home_wrapper h2 {
+    color: #fff;
+    font-size: 30px;
+    margin: 0;
+    font-family: "Bebas Neue", sans-serif;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 2px #fff;
+    display: block;
+    text-align: center;
+  }
+  .home_wrapper p {
+    color: #ffffff;
+    font-size: 18px;
+    margin: 0;
+    width: 45%;
+    line-height: 1.8;
+    margin: auto;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 2px rgba(255, 255, 255, 0.9764705882);
+    display: block;
+  }
+  #footerhab {
+    background-color: #1e1c1c;
+  }
+  #footerhab h5 {
+    font-size: 28px;
+    color: #ff7700;
+  }
+  #footerhab p {
+    font-size: 18px;
+    color: #ffffff;
+  }
+}
+/* Dispositivos XX-Large (escritorios más grandes, 1400px y más)*/
+@media (min-width: 1400px) {
+  #logoh {
+    font-size: 45px;
+    font-weight: 700;
+    color: #ffffff;
+    text-decoration: none;
+    transition: 2s;
+  }
+  .home_wrapper h2 {
+    color: #fff;
+    font-size: 70px;
+    margin: 0;
+    font-family: "Bebas Neue", sans-serif;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 2px #fff;
+    display: block;
+    text-align: center;
+  }
+  .home_wrapper p {
+    color: #ffffff;
+    font-size: 30px;
+    margin: 0;
+    width: 45%;
+    line-height: 1.8;
+    margin: auto;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 2px rgba(255, 255, 255, 0.9764705882);
+    display: block;
+  }
+}
 /* Fotos.html inicio */
+#bodyfoto {
+  background: rgb(30, 30, 29);
+}
+
 #sec11foto {
   background: rgb(30, 30, 29);
 }
@@ -648,7 +884,127 @@ footer p {
 }
 
 /* Fotos.html fin */
+/* Media queries Fotos.html */
+/* `sm` se aplica a dispositivos x-small (teléfonos verticales, menos de 576px)*/
+@media screen and (max-width: 575.98px) {
+  #logoh {
+    font-size: 23px;
+    font-weight: 700;
+    color: #ffffff;
+    text-decoration: none;
+    transition: 2s;
+  }
+  .home_wrapper h2 {
+    color: #fff;
+    font-size: 30px;
+    margin: 0;
+    font-family: "Bebas Neue", sans-serif;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 2px #fff;
+    display: block;
+    text-align: center;
+  }
+  .home_wrapper p {
+    color: #ffffff;
+    font-size: 18px;
+    margin: 0;
+    width: 45%;
+    line-height: 1.8;
+    margin: auto;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 2px rgba(255, 255, 255, 0.9764705882);
+    display: block;
+  }
+  #footerh {
+    background-color: #1e1c1c;
+  }
+  #footerh h5 {
+    font-size: 28px;
+    color: #ff7700;
+  }
+  #footerh p {
+    font-size: 18px;
+    color: #ffffff;
+  }
+}
+/* Dispositivos pequeños (teléfonos horizontales, 576px y más)*/
+@media (min-width: 576px) {
+  #logoh {
+    font-size: 23px;
+    font-weight: 700;
+    color: #ffffff;
+    text-decoration: none;
+    transition: 2s;
+  }
+  .home_wrapper h2 {
+    color: #fff;
+    font-size: 30px;
+    margin: 0;
+    font-family: "Bebas Neue", sans-serif;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 2px #fff;
+    display: block;
+    text-align: center;
+  }
+  .home_wrapper p {
+    color: #ffffff;
+    font-size: 18px;
+    margin: 0;
+    width: 45%;
+    line-height: 1.8;
+    margin: auto;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 2px rgba(255, 255, 255, 0.9764705882);
+    display: block;
+  }
+  #footerh {
+    background-color: #1e1c1c;
+  }
+  #footerh h5 {
+    font-size: 28px;
+    color: #ff7700;
+  }
+  #footerh p {
+    font-size: 18px;
+    color: #ffffff;
+  }
+}
+/* Dispositivos XX-Large (escritorios más grandes, 1400px y más)*/
+@media (min-width: 1400px) {
+  #logoh {
+    font-size: 45px;
+    font-weight: 700;
+    color: #ffffff;
+    text-decoration: none;
+    transition: 2s;
+  }
+  .home_wrapper h2 {
+    color: #fff;
+    font-size: 70px;
+    margin: 0;
+    font-family: "Bebas Neue", sans-serif;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 2px #fff;
+    display: block;
+    text-align: center;
+  }
+  .home_wrapper p {
+    color: #ffffff;
+    font-size: 30px;
+    margin: 0;
+    width: 45%;
+    line-height: 1.8;
+    margin: auto;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 2px rgba(255, 255, 255, 0.9764705882);
+    display: block;
+  }
+}
 /* Descubre.html fin */
+#bodydescubre {
+  background: rgb(30, 30, 29);
+}
+
 #sec1des {
   background: rgb(30, 30, 29);
 }
@@ -659,7 +1015,127 @@ footer p {
 }
 
 /* Descubre.html fin */
+/* Media queries Descubre.html */
+/* `sm` se aplica a dispositivos x-small (teléfonos verticales, menos de 576px)*/
+@media screen and (max-width: 575.98px) {
+  #logoh {
+    font-size: 23px;
+    font-weight: 700;
+    color: #ffffff;
+    text-decoration: none;
+    transition: 2s;
+  }
+  .home_wrapper h2 {
+    color: #fff;
+    font-size: 30px;
+    margin: 0;
+    font-family: "Bebas Neue", sans-serif;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 2px #fff;
+    display: block;
+    text-align: center;
+  }
+  .home_wrapper p {
+    color: #ffffff;
+    font-size: 18px;
+    margin: 0;
+    width: 45%;
+    line-height: 1.8;
+    margin: auto;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 2px rgba(255, 255, 255, 0.9764705882);
+    display: block;
+  }
+  #footerh {
+    background-color: #1e1c1c;
+  }
+  #footerh h5 {
+    font-size: 28px;
+    color: #ff7700;
+  }
+  #footerh p {
+    font-size: 18px;
+    color: #ffffff;
+  }
+}
+/* Dispositivos pequeños (teléfonos horizontales, 576px y más)*/
+@media (min-width: 576px) {
+  #logoh {
+    font-size: 23px;
+    font-weight: 700;
+    color: #ffffff;
+    text-decoration: none;
+    transition: 2s;
+  }
+  .home_wrapper h2 {
+    color: #fff;
+    font-size: 30px;
+    margin: 0;
+    font-family: "Bebas Neue", sans-serif;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 2px #fff;
+    display: block;
+    text-align: center;
+  }
+  .home_wrapper p {
+    color: #ffffff;
+    font-size: 18px;
+    margin: 0;
+    width: 45%;
+    line-height: 1.8;
+    margin: auto;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 2px rgba(255, 255, 255, 0.9764705882);
+    display: block;
+  }
+  #footerh {
+    background-color: #1e1c1c;
+  }
+  #footerh h5 {
+    font-size: 28px;
+    color: #ff7700;
+  }
+  #footerh p {
+    font-size: 18px;
+    color: #ffffff;
+  }
+}
+/* Dispositivos XX-Large (escritorios más grandes, 1400px y más)*/
+@media (min-width: 1400px) {
+  #logoh {
+    font-size: 45px;
+    font-weight: 700;
+    color: #ffffff;
+    text-decoration: none;
+    transition: 2s;
+  }
+  .home_wrapper h2 {
+    color: #fff;
+    font-size: 70px;
+    margin: 0;
+    font-family: "Bebas Neue", sans-serif;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 2px #fff;
+    display: block;
+    text-align: center;
+  }
+  .home_wrapper p {
+    color: #ffffff;
+    font-size: 30px;
+    margin: 0;
+    width: 45%;
+    line-height: 1.8;
+    margin: auto;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 2px rgba(255, 255, 255, 0.9764705882);
+    display: block;
+  }
+}
 /* Contacto.html inicio */
+#bodycontacto {
+  background-color: rgb(30, 30, 29);
+}
+
 #contcontainer .card {
   border-radius: 20px !important;
   padding: 32px;
@@ -696,7 +1172,149 @@ footer p {
 }
 
 /* Contacto.html fin */
+/* Media queries Contacto.html */
+/* `sm` se aplica a dispositivos x-small (teléfonos verticales, menos de 576px)*/
+@media screen and (max-width: 575.98px) {
+  #logoh {
+    font-size: 23px;
+    font-weight: 700;
+    color: #ffffff;
+    text-decoration: none;
+    transition: 2s;
+  }
+  .home_wrapper h2 {
+    color: #fff;
+    font-size: 30px;
+    margin: 0;
+    font-family: "Bebas Neue", sans-serif;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 2px #fff;
+    display: block;
+    text-align: center;
+  }
+  .home_wrapper p {
+    color: #ffffff;
+    font-size: 18px;
+    margin: 0;
+    width: 45%;
+    line-height: 1.8;
+    margin: auto;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 2px rgba(255, 255, 255, 0.9764705882);
+    display: block;
+  }
+  #footerh {
+    background-color: #1e1c1c;
+  }
+  #footerh h5 {
+    font-size: 28px;
+    color: #ff7700;
+  }
+  #footerh p {
+    font-size: 18px;
+    color: #ffffff;
+  }
+}
+/* Dispositivos pequeños (teléfonos horizontales, 576px y más)*/
+@media (min-width: 576px) {
+  #logoh {
+    font-size: 23px;
+    font-weight: 700;
+    color: #ffffff;
+    text-decoration: none;
+    transition: 2s;
+  }
+  .home_wrapper h2 {
+    color: #fff;
+    font-size: 30px;
+    margin: 0;
+    font-family: "Bebas Neue", sans-serif;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 2px #fff;
+    display: block;
+    text-align: center;
+  }
+  .home_wrapper p {
+    color: #ffffff;
+    font-size: 18px;
+    margin: 0;
+    width: 45%;
+    line-height: 1.8;
+    margin: auto;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 2px rgba(255, 255, 255, 0.9764705882);
+    display: block;
+  }
+  #footerh {
+    background-color: #1e1c1c;
+  }
+  #footerh h5 {
+    font-size: 28px;
+    color: #ff7700;
+  }
+  #footerh p {
+    font-size: 18px;
+    color: #ffffff;
+  }
+}
+/* Dispositivos XX-Large (escritorios más grandes, 1400px y más)*/
+@media (min-width: 1400px) {
+  #logoh {
+    font-size: 45px;
+    font-weight: 700;
+    color: #ffffff;
+    text-decoration: none;
+    transition: 2s;
+  }
+  .home_wrapper h2 {
+    color: #fff;
+    font-size: 70px;
+    margin: 0;
+    font-family: "Bebas Neue", sans-serif;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 2px #fff;
+    display: block;
+    text-align: center;
+  }
+  .home_wrapper p {
+    color: #ffffff;
+    font-size: 30px;
+    margin: 0;
+    width: 45%;
+    line-height: 1.8;
+    margin: auto;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 2px rgba(255, 255, 255, 0.9764705882);
+    display: block;
+  }
+}
 /* Aventuras.html inicio */
+.btn-gotop {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 25px;
+  line-height: 63px;
+  left: 30px;
+  border: solid 1px #dddddd;
+  border-radius: 50px;
+  color: #dddddd;
+  background-color: transparent;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+.btn-gotop.show {
+  opacity: 1;
+}
+.btn-gotop i {
+  font-size: 24px;
+}
+.btn-gotop:hover {
+  border: 1.5px solid rgb(5, 88, 253);
+  background-color: rgb(5, 88, 253);
+}
+
 .btn-wsp {
   position: fixed;
   width: 60px;
@@ -719,5 +1337,121 @@ footer p {
 }
 
 /* Aventuras.html fin */
+/* Media queries Aventuras.html */
+/* `sm` se aplica a dispositivos x-small (teléfonos verticales, menos de 576px)*/
+@media screen and (max-width: 575.98px) {
+  #logoh {
+    font-size: 23px;
+    font-weight: 700;
+    color: #ffffff;
+    text-decoration: none;
+    transition: 2s;
+  }
+  .home_wrapper h2 {
+    color: #fff;
+    font-size: 30px;
+    margin: 0;
+    font-family: "Bebas Neue", sans-serif;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 2px #fff;
+    display: block;
+    text-align: center;
+  }
+  .home_wrapper p {
+    color: #ffffff;
+    font-size: 18px;
+    margin: 0;
+    width: 45%;
+    line-height: 1.8;
+    margin: auto;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 2px rgba(255, 255, 255, 0.9764705882);
+    display: block;
+  }
+  #footerh {
+    background-color: #1e1c1c;
+  }
+  #footerh h5 {
+    font-size: 28px;
+    color: #ff7700;
+  }
+  #footerh p {
+    font-size: 18px;
+    color: #ffffff;
+  }
+}
+/* Dispositivos pequeños (teléfonos horizontales, 576px y más)*/
+@media (min-width: 576px) {
+  #logoh {
+    font-size: 23px;
+    font-weight: 700;
+    color: #ffffff;
+    text-decoration: none;
+    transition: 2s;
+  }
+  .home_wrapper h2 {
+    color: #fff;
+    font-size: 30px;
+    margin: 0;
+    font-family: "Bebas Neue", sans-serif;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 2px #fff;
+    display: block;
+    text-align: center;
+  }
+  .home_wrapper p {
+    color: #ffffff;
+    font-size: 18px;
+    margin: 0;
+    width: 45%;
+    line-height: 1.8;
+    margin: auto;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 2px rgba(255, 255, 255, 0.9764705882);
+    display: block;
+  }
+  #footerh {
+    background-color: #1e1c1c;
+  }
+  #footerh h5 {
+    font-size: 28px;
+    color: #ff7700;
+  }
+  #footerh p {
+    font-size: 18px;
+    color: #ffffff;
+  }
+}
+/* Dispositivos XX-Large (escritorios más grandes, 1400px y más)*/
+@media (min-width: 1400px) {
+  #logoh {
+    font-size: 45px;
+    font-weight: 700;
+    color: #ffffff;
+    text-decoration: none;
+    transition: 2s;
+  }
+  .home_wrapper h2 {
+    color: #fff;
+    font-size: 70px;
+    margin: 0;
+    font-family: "Bebas Neue", sans-serif;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 2px #fff;
+    display: block;
+    text-align: center;
+  }
+  .home_wrapper p {
+    color: #ffffff;
+    font-size: 30px;
+    margin: 0;
+    width: 45%;
+    line-height: 1.8;
+    margin: auto;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 2px rgba(255, 255, 255, 0.9764705882);
+    display: block;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */

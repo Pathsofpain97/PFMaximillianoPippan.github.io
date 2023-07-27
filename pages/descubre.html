@@ -4,6 +4,10 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="language" content="spanish">
+  <meta name="audience" content="all">
+  <meta name="description"
+    content="Viví tu hotel en Ushuaia con primera fila al canal Beagle. Fuego & Sol Hotel. Mejor Precio y beneficios garantizados.">
   <title>Fuego & Sol Hotel</title>
   <link rel="icon" href="../img/clear-sun_icon-icons.com_54320.ico">
   <!-- Css Bootstrap -->
@@ -11,11 +15,13 @@
     integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
   <!-- Css Fontawesome -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <!-- Css AOS -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <!-- Mi css -->
   <link rel="stylesheet" href="../css/style.css">
 </head>
 
-<body>
+<body id="bodydescubre">
   <!-- Header inicio -->
   <header class="container-fluid" id="header2">
     <div class="container d-flex align-items-center justify-content-between">
@@ -34,7 +40,7 @@
         <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
       </div>
       <div class="offcanvas-body">
-        <img src="../img/f&s hotel.png" alt="Logodelhotel" class="img-fluid">
+        <img src="../img/f&s hotel.png" alt="Imagen del Logo del hotel" class="img-fluid">
         <ul class="menu">
           <li><a href="../index.html" id="a1">Inicio</a></li>
           <li><a href="../pages/hotel.html" id="a2">Hotel</a></li>
@@ -66,7 +72,8 @@
   <!-- Main inicio -->
   <div class="home_wrapper container-fluid position-relative">
     <video class="video_ab" autoplay muted loop>
-      <source src="../videos/ushuaia video general.mp4" type="video/mp4">
+      <source src="../videos/ushuaia video general.mp4" type="video/mp4"
+        alt="Video promocional de la ciudad de Ushuaia y sus paisajes naturales">
     </video>
     <div class="container d-flex justify-content-center">
       <div class="row">
@@ -78,14 +85,20 @@
     </div>
   </div>
   <!-- Main fin -->
-	<a href="https://api.whatsapp.com/send?phone=+59893608857&text=Hola, quiero comunicarme con el hotel" class="btn-wsp" target="_blank">
+  <button type="button" class="btn btn-gotop d-inline-flex align-items-center justify-content-center"
+    data-action="gotop">
+    <i class="fa-solid fa-arrow-up fa-flip" style="color: #ff0080;"></i>
+  </button>
+  <a href="https://api.whatsapp.com/send?phone=+59893608857&text=Hola, quiero comunicarme con el hotel" class="btn-wsp"
+    target="_blank">
     <i class="fa-brands fa-whatsapp"></i>
-</a>
+  </a>
   <!-- Seccion 1 inicio -->
-  <section class="container-fluid" id="sec1des">
+  <section class="container-fluid mt-4" id="sec1des">
     <div class="container" id="sec1des">
       <div class="clearfix">
-        <img src="../img/lugares/tierra-del-fuego_3-.jpg" class="img-fluid float-md-end mb-3 ms-md-3" alt="...">
+        <img src="../img/lugares/tierra-del-fuego_3-.jpg" class="img-fluid float-md-end mb-3 ms-md-3" data-aos="zoom-in"
+          alt="Foto del cartel con las letras individuales de la ciudad de Ushuaia">
 
         <p>
           Ushuaia se encuentra al final de la Patagonia austral, es el extremo sur de la Argentina, el fin del mundo o
@@ -112,18 +125,19 @@
     </path>
   </svg>
   <!-- Seccion 2 inicio -->
-  <section class="container-fluid" id="sec1des">
+  <section class="container-fluid mt-4" id="sec1des">
     <div class="container" id="sec1des">
       <div class="clearfix">
-        <img src="../img/lugares/QYY4721-1024x684.jpg" class="img-fluid col-md-6 float-md-end mb-3 ms-md-3" alt="...">
+        <img src="../img/lugares/QYY4721-1024x684.jpg" class="img-fluid col-md-6 float-md-end mb-3 ms-md-3"
+          data-aos="zoom-in-left" alt="Foto de las esculturas de los pueblos originarios de Ushuaia">
 
-        <p>
+        <p data-aos="zoom-in-right">
           La historia en tamaño real.
           En este espacio vas a encontrar escenas de la historia fueguina recreadas con figuras de gran tamaño. La
           calidad artística de las escenas hace que el recorrido se convierta en un viaje hacia la historia y los
           secretos de la Tierra del Fuego.
         </p>
-        <p>
+        <p data-aos="zoom-in-right">
           La historia de los nativos fueguinos -Yámanas, Selknam y Haush-; los comienzos de Ushuaia con la creación del
           presidio y su importancia para la población; y las aventuras marítimas del siglo XIX y XX representadas en
           personajes como Fitz Roy, capitán HSM Beagle, y Ernest Shackleton, símbolo de las primeras expediciones
@@ -142,18 +156,19 @@
     </path>
   </svg>
   <!-- Seccion 3 inicio -->
-  <section class="container-fluid" id="sec1des">
+  <section class="container-fluid mt-4" id="sec1des">
     <div class="container" id="sec1des">
       <div class="clearfix">
-        <img src="../img/lugares/museo del fin del mundo.jpg" class="img-fluid col-md-6 float-md-end mb-3 ms-md-3" alt="...">
+        <img src="../img/lugares/museo del fin del mundo.jpg" class="img-fluid col-md-6 float-md-end mb-3 ms-md-3"
+          data-aos="zoom-in-left" alt="Foto de la entrada del Museo del Fin del Mundo">
 
-        <p>
+        <p data-aos="zoom-in-right">
           Guardianes de nuestra historia.
           El Museo del Fin del Mundo es una pieza viva de nuestra historia: además de la conservación de elementos de la
           historia y la cultura fueguina, los dos edificios que lo componen son antiguos testigos y piezas fundamentales
           en el desarrollo de la ciudad.
         </p>
-        <p>
+        <p data-aos="zoom-in-right">
           El edificio principal ubicado en la Avenida Maipú al 173 se terminó de construir en 1915 con la idea de
           funcionar como vivienda del entonces Secretario de la Gobernación y luego Gobernador Manuel Fernandez Valdez;
           sin embargo, el edificio es conocido por haber funcionado como sede del Banco Nación por más de 60 años. Fue
@@ -172,18 +187,19 @@
     </path>
   </svg>
   <!-- Seccion 4 inicio -->
-  <section class="container-fluid" id="sec1des">
+  <section class="container-fluid mt-4" id="sec1des">
     <div class="container" id="sec1des">
       <div class="clearfix">
-        <img src="../img/lugares/CCC5135-1024x684.jpg" class="img-fluid col-md-6 float-md-end mb-3 ms-md-3" alt="...">
+        <img src="../img/lugares/CCC5135-1024x684.jpg" class="img-fluid col-md-6 float-md-end mb-3 ms-md-3"
+          data-aos="zoom-in-left" alt="Foto del interior del Museo Marítimo">
 
-        <p>
+        <p data-aos="zoom-in-right">
           Los orígenes de la ciudad y la historia de las islas del Atlántico Sur.
           En los pabellones del ex presidio de Ushuaia se encuentran el Museo Marítimo, el Museo Antártico y el Museo de
           Arte Marino. Este lugar encierra la historia de famosos naufragios y nativos canoeros, expediciones a la
           Antártida y leyendas sobre los reclusos del Penal de Ushuaia.
         </p>
-        <p>
+        <p data-aos="zoom-in-right">
           Dentro del museo funciona una galería de arte con muestras itinerantes, una tienda de libros y souvenirs, y
           una confitería en el salón central que también oficia como espacio de eventos. Si salís hacia uno de los
           patios internos, entre los pabellones, vas a encontrar la antigua panadería donde se han proyectado numerosas
@@ -201,19 +217,20 @@
     </path>
   </svg>
   <!-- Seccion 5 inicio -->
-  <section class="container-fluid" id="sec1des">
+  <section class="container-fluid mt-4" id="sec1des">
     <div class="container" id="sec1des">
       <div class="clearfix">
-        <img src="../img/lugares/f1280x720-22111_153786_0-1024x576.jpg" class="img-fluid col-md-6 float-md-end mb-3 ms-md-3"
-          alt="...">
+        <img src="../img/lugares/f1280x720-22111_153786_0-1024x576.jpg"
+          class="img-fluid col-md-6 float-md-end mb-3 ms-md-3" data-aos="zoom-in-left"
+          alt="Foto del Espacio Pensar Malvinas con la bandera Argentina de fondo">
 
-        <p>
+        <p data-aos="zoom-in-right">
           Ushuaia, capital de Malvinas.
           La historia y la cercanía vinculan a Ushuaia con las Islas Malvinas de una manera muy fuerte. La ciudad ofrece
           diferentes recorridos para conocer un poco más sobre el reclamo argentino de soberanía sobre las Islas
           Malvinas.
         </p>
-        <p>
+        <p data-aos="zoom-in-right">
           En el espacio Pensar Malvinas se encuentran exhibidos objetos, cartas y recortes periodísticos sobre los
           héroes que lucharon en 1982. Fotografías, documentación referida al primer avistamiento de la isla, el Tratado
           de Tordesillas, invasiones británicas, gestiones en la ONU: todo exhibido en esta casa antigua que te
@@ -231,12 +248,13 @@
     </path>
   </svg>
   <!-- Seccion 6 inicio -->
-  <section class="container-fluid" id="sec1des">
+  <section class="container-fluid mt-4" id="sec1des">
     <div class="container" id="sec1des">
       <div class="clearfix">
-        <img src="../img/lugares/compras-1-1024x683.jpg" class="img-fluid col-md-6 float-md-end mb-3 ms-md-3" alt="...">
+        <img src="../img/lugares/compras-1-1024x683.jpg" class="img-fluid col-md-6 float-md-end mb-3 ms-md-3"
+          data-aos="zoom-in-left" alt="Foto de mujer viendo ropa en el Duty Free Shop Atlántico Sur">
 
-        <p>
+        <p data-aos="zoom-in-right">
           Con más de 40 años de actividad comercial en la isla, Duty Free Shop Atlántico Sur es una visita obligada para
           aquellos fueguinos y turistas que buscan productos de calidad y marcas de renombre internacional libre de
           impuestos. Cuenta con 4 tiendas ubicadas estratégicamente en las dos ciudades más importantes de la provincia
@@ -254,19 +272,20 @@
     </path>
   </svg>
   <!-- Seccion 7 inicio -->
-  <section class="container-fluid" id="sec1des">
+  <section class="container-fluid mt-4" id="sec1des">
     <div class="container" id="sec1des">
       <div class="clearfix">
-        <img src="../img/lugares/BCF0564-1024x684.jpg" class="img-fluid col-md-6 float-md-end mb-3 ms-md-3" alt="...">
+        <img src="../img/lugares/BCF0564-1024x684.jpg" class="img-fluid col-md-6 float-md-end mb-3 ms-md-3"
+          data-aos="zoom-in-left" alt="Foto del paisaje de la La Bahía Encerrada">
 
-        <p>
+        <p data-aos="zoom-in-right">
           Naturaleza en el corazón de la ciudad.
           La Bahía Encerrada es un lugar que caracteriza la ciudad de Ushuaia. Su importancia es vital: funciona como
           pulmón verde, como protección de cuencas y costas, conserva especies silvestres y contribuye con fenómenos
           naturales como las migraciones de aves; también, protege sitios históricos y paisajes agrestes y fomenta la
           relación entre las personas y el entorno natural.
         </p>
-        <p>
+        <p data-aos="zoom-in-right">
           Hace algunos años ya, el espejo de agua, junto con el humedal y los pastizales que lo rodean, pasaron a ser
           considerados como reserva natural. Los trabajos de conservación, protección y educación son llevados adelante
           por la Asociación Bahía Encerrada, junto con la municipalidad y otras instituciones.
@@ -283,12 +302,13 @@
     </path>
   </svg>
   <!-- Seccion 8 inicio -->
-  <section class="container-fluid" id="sec1des">
+  <section class="container-fluid mt-4" id="sec1des">
     <div class="container" id="sec1des">
       <div class="clearfix">
-        <img src="../img/lugares/glaciar martial.jpg" class="img-fluid col-md-6 float-md-end mb-3 ms-md-3" alt="...">
+        <img src="../img/lugares/glaciar martial.jpg" class="img-fluid col-md-6 float-md-end mb-3 ms-md-3"
+          data-aos="zoom-in-left" alt="Foto del paisaje del camino hacia el glaciar Martial">
 
-        <p>
+        <p data-aos="zoom-in-right">
           La magia de la naturaleza a pocos minutos.
           El glaciar Martial es un emblema de Ushuaia. Se encuentra dentro del Área Natural Protegida que lleva el mismo
           nombre, a sólo 7 kilómetros del centro y ofrece todo tipo de actividades para disfrutar de la naturaleza: en
@@ -296,7 +316,7 @@
           accesibles para disfrutar del senderismo. Además, allí encontrás establecimientos gastronómicos abiertos todo
           el año.
         </p>
-        <p>
+        <p data-aos="zoom-in-right">
           El Martial es un glaciar de circo debido a su forma semejante a un anfiteatro o semicírculo. Está situado a
           unos 1000 msnm y su nombre proviene del comandante de la expedición científica francesa de 1882-1883, Louis
           Ferdinand Martial. Actualmente es un remanente glaciario, es decir, restos de un antiguo glaciar mucho más
@@ -350,6 +370,16 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"
     integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS"
     crossorigin="anonymous"></script>
+  <!-- AOS -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 3000,
+      once: true
+    });
+  </script>
+  <!-- Boton Up -->
+  <script src="../js/botonup.js"></script>
 </body>
 
 </html>
